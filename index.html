@@ -2,6 +2,21 @@
 <title>Cowthecow94</title>
 <link rel="stylesheet" href="mainstyles.css">
 <body>
+<button value="About:blank" onclick()="aboutblank()">
 <html>Test</html> <br>
-<iframe src="https://www.google.com" width=500 height=500>
+<iframe src="https://www.google.com/search?igu=1" width=500 height=500>
 </body>
+<script>
+function aboutblank() {
+win = window.open();
+win.document.body.style.margin = '0';
+win.document.body.style.height = '100vh';
+var iframe = win.document.createElement('iframe');
+iframe.style.border = 'none';
+iframe.style.width = '100%';
+iframe.style.height = '100%';
+iframe.style.margin = '0';
+iframe.src = 'https://www.cowthecow94.github.io';
+win.document.body.appendChild(iframe);
+}
+</script>
