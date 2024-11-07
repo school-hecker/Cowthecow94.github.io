@@ -4,11 +4,11 @@
 <body>
 <button onclick="aboutblank()">About:blank cloak</button> <br>
 <html>Test</html> <br>
-<embed src="https://www.bing.com/search?q=%s" width=500 height=500></embed>
+<embed src="https://www.bing.com/search?q=" width=500 height=500></embed>
 </body>
 <script>
 function aboutblank() {
-win = window.open("","_blank");
+win = window.open();
 win.document.body.style.margin = '0';
 win.document.body.style.height = '100vh';
 var embed = win.document.createElement('embed');
