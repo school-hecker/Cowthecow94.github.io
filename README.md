@@ -4,4 +4,4 @@
 <h2>Add a pro%y</h2>
 <h2>Add a tips and tricks button (coming very soon!)</h2>
 <h3>Yeah umm... idk how much this will be updated</h3>
-<h3>Project by @Cowthecow94 and @</h3>
+<h3>Project by @Cowthecow94 and @Rasafhw</h3>
