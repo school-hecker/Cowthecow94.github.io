@@ -1,11 +1,17 @@
 <h1>Link</h1>
 <h2>Open the link <a href="https://cowthecow94.github.io">[here]</a></h2>
+<h1>Help</h1>
 <details>
   <summary>Steps for File</summary>
   <p>1. Click the link <a href="/index.html" download>[Here]</a> to open index.html source</p>
   <p>2. Press the download button on source page</p>
   <p>3. Open the download</p>
   <p>4. Press the Open cloaked button and done! You've opened the site without opening it (the site that goguardian and others can detect)!</p>
+</details>
+<details>
+  <summary>Steps for ExtHang3r</summary>
+  <p>1. Navigate to the methods page</p>
+  <p>hold on will add more soon</p>
 </details>
 <h1>Future updates</h1>
 <h2>Add a pro%y</h2>
