@@ -11,7 +11,8 @@
 <details>
   <summary>Steps for ExtHang3r</summary>
   <p>1. Navigate to the methods page</p>
-  <p>hold on will add more soon</p>
+  <p>2. Click on the ExtHang3r button</p>
+  <p>3. You can just follow the rest of the instructions in the embed</p>
 </details>
 <h1>Future updates</h1>
 <h2>Add a pro%y</h2>
