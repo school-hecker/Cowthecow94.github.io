@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <title>Cowthecow94</title>
 <link rel="stylesheet" href="mainstyles.css">
-<body onbeforeunload>
+<body onbeforeunload="return msg()">
 <button class="button button2" onclick="aboutblank()">About:blank cloak</button> <br>
 <html class="coolhtml">Test for UB</html> <br>
 <button class="button button2" onclick="window.location.href='https://cowthecow94.github.io/bing.html';">Bing search</button>
@@ -25,5 +25,8 @@ embed.style.height = '100%';
 embed.style.margin = '0';
 embed.src = 'https://cowthecow94.github.io';
 win.document.body.appendChild(embed);
+}
+function msg() {
+return "Sup";
 }
 </script>
