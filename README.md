@@ -15,7 +15,7 @@
   <p>3. You can just follow the rest of the instructions in the embed</p>
 </details>
 <h1>Future updates</h1>
-<h2>Add a pro%y</h2>
+<h2>Add a pr0xy</h2>
 <h2>Add more to the tips and tricks</h2>
 <h1>Notes</h1>
 <h2>Yeah umm... idk how much this will be updated</h3>
