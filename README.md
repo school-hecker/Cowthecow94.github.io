@@ -17,6 +17,7 @@
 <h1>Future updates</h1>
 <h2>Add a pr0xy</h2>
 <h2>Add more to the tips and tricks</h2>
+<h2>Add a games section</h2>
 <h1>Notes</h1>
 <h2>Yeah umm... idk how much this will be updated</h3>
 <h1>Project by @Cowthecow94 and @Rasafhw</h1>
