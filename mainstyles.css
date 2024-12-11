@@ -8,12 +8,13 @@ body {
 .button {
   font-size: 16px
   cursor: pointer;
+  text-align: center;
 }
 .button2 {
   border-radius: 15px;
-  background-color: gray; 
+  background-color: gray;
   width: 70px;
-  hieght: 40px;
+  hieght: 50px;
   color: white;
   transition-duration: 0.4s;
 }
@@ -22,7 +23,7 @@ body {
   border-radius: 5px;
   background-color: green; 
   width: 80px;
-  hieght: 45px;
+  hieght: 55px;
   color: black;
   transition-duration: 0.4s;
 }
