@@ -23,7 +23,7 @@ body {
 .button2:hover {
   border-radius: 5px;
   background-color: green; 
-  width: calc(auto + 10px);
+  width: calc(inherit + 20px);
   hieght: 60px;
   color: black;
   transition-duration: 0.4s;
