@@ -14,7 +14,7 @@ body {
 .button2 {
   border-radius: 15px;
   background-color: rgb(50, 50, 50);
-  width: 70px;
+  width: auto;
   hieght: 50px;
   color: white;
   transition-duration: 0.4s;
@@ -23,7 +23,7 @@ body {
 .button2:hover {
   border-radius: 5px;
   background-color: green; 
-  width: 80px;
+  width: auto+10;
   hieght: 60px;
   color: black;
   transition-duration: 0.4s;
