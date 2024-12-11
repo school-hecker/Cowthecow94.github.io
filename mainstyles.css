@@ -6,16 +6,15 @@ body {
   background-color: rgb(0, 0, 0)
 }
 .button {
-  font-size: auto;
+  font-size: 16px;
   cursor: pointer;
+  padding: 5px 1px;
   text-align: center;
   white-space: nowrap;
 }
 .button2 {
   border-radius: 15px;
   background-color: rgb(50, 50, 50);
-  width: auto;
-  hieght: 50px;
   color: white;
   transition-duration: 0.4s;
 }
@@ -23,8 +22,7 @@ body {
 .button2:hover {
   border-radius: 5px;
   background-color: green; 
-  width: calc(inherit + 20px);
-  hieght: 60px;
+  padding: 7px 5px;
   color: black;
   transition-duration: 0.4s;
 }
