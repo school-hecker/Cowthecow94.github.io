@@ -7,21 +7,22 @@ body {
 }
 .button {
   font-size: 16px
-  transition-duration: 0.4s;
   cursor: pointer;
 }
 .button2 {
-  border-width: 15px;
+  border-radius: 15px;
   background-color: gray; 
   width: 70px;
   hieght: 40px;
-  color: white; 
+  color: white;
+  transition-duration: 0.4s;
 }
 
 .button2:hover {
-  border-width: 5px;
+  border-radius: 5px;
   background-color: green; 
   width: 80px;
   hieght: 45px;
   color: black;
+  transition-duration: 0.4s;
 }
