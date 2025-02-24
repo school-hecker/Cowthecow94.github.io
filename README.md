@@ -15,12 +15,12 @@
   <p>3. You can just follow the rest of the instructions in the embed</p>
 </details>
 <h1>Future updates</h1>
-<h2>Add Ultr@vi0let pr0xy</h2>
-<h2>Add a chatroom</h2>
-<h2>Add more to the tips and tricks</h2>
-<h2>Add a games section</h2>
-<h2>Categorize things more more</h2>
-<h2>UPDATE MORE!!?</h2>
+<h2><input type="checkbox" disabled checked>Add more to the tips and tricks</input></h2>
+<h2><input type="checkbox" disabled checked>Add a games section</input></h2>
+<h2><input type="checkbox" disabled>Add Ultr@vi0let pr0xy</input></h2>
+<h2><input type="checkbox" disabled>Add a chatroom</input></h2>
+<h2><input type="checkbox" disabled>Categorize things more</input></h2>
+<h2><input type="checkbox">UPDATE MORE!!? (I think we are)</input></h2>
 <h1>Notes</h1>
 <h2>Yeah umm... idk how much this will be updated</h3>
 <h1>Project by @Cowthecow94 and @Rasafhw</h1>
