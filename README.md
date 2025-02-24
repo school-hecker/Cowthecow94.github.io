@@ -1,5 +1,5 @@
 <h1>Link</h1>
-<h2>Open the link <a href="https://cowthecow94.github.io">[here]</a></h2>
+<html>Open the link <a href="https://cowthecow94.github.io">[here]</a></html>
 <h1>Help</h1>
 <details>
   <summary>Steps for File</summary>
@@ -15,12 +15,12 @@
   <p>3. You can just follow the rest of the instructions in the embed</p>
 </details>
 <h1>Future updates</h1>
-<h2><input type="checkbox" disabled checked>Add more to the tips and tricks</input></h2>
-<h2><input type="checkbox" disabled checked>Add a games section</input></h2>
-<h2><input type="checkbox" disabled>Add Ultr@vi0let pr0xy</input></h2>
-<h2><input type="checkbox" disabled>Add a chatroom</input></h2>
-<h2><input type="checkbox" disabled>Categorize things more</input></h2>
-<h2><input type="checkbox">UPDATE MORE!!? (I think we are)</input></h2>
+<input type="checkbox" disabled checked>Add more to the tips and tricks</input>
+<input type="checkbox" disabled checked>Add a games section</input>
+<input type="checkbox" disabled>Add Ultr@vi0let pr0xy</input>
+<input type="checkbox" disabled>Add a chatroom</input>
+<input type="checkbox" disabled>Categorize things more</input>
+<input type="checkbox">UPDATE MORE!!? (I think we are)</input>
 <h1>Notes</h1>
-<h2>Yeah umm... idk how much this will be updated</h3>
-<h1>Project by @Cowthecow94 and @Rasafhw</h1>
+<html>Yeah umm... idk how much this will be updated</html>
+<html>Project by @Cowthecow94 and @Rasafhw</html>
