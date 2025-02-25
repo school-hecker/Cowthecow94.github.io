@@ -28,5 +28,5 @@
 <input type="checkbox">
 <label>UPDATE MORE!!? (I think we are)</label> <br>
 <h1>Notes</h1>
-<html>Yeah umm... idk how much this will be updated</html>
+<html>Yeah umm... idk how much this will be updated</html> <br>
 <html>Project by @Cowthecow94 and @Rasafhw</html>
