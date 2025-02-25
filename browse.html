@@ -1,0 +1,45 @@
+<title id="titlename">Embed browser</title>
+<link rel="stylesheet" href="mainstyles.css">
+<body onload="loadoldtabname();setInterval(checkupdate, 1000)">
+<button class="button button2" onclick="window.location.href='https://cowthecow94.github.io/';">Back</button> <br>
+<button class="button button2" onclick="setIframe('https://www.bing.com/webhp?igu=1')">Reset</button> <br>
+<input type="text" value="https://" id="myinput" placeholder="URL" oninput="handleInput(event)">
+<input type="text" placeholder="Tab name" id="mytitle" oninput="handleInput2(event)">
+<!--<div id="output"></div>-->
+<embed id="bing_embed" src='https://www.bing.com/webhp?igu=1' width=1000 height=700></embed>
+<script>
+//onload="checkupdate()"
+function setIframe(newsrc) {
+  var embed02 = document.getElementById('bing_embed');
+  embed02.src = newsrc;
+  if (newsrc !== 'https://www.bing.com/webhp?igu=1') {
+    document.getElementById('myinput').value = newsrc;
+  }
+  if (newsrc === 'https://www.bing.com/webhp?igu=1') {
+    document.getElementById('myinput').value = "https://";
+  }
+}
+function handleInput(event) {
+    const input = event.target.value;
+    setIframe(`${input}`);
+}
+function handleInput2(event) {
+    const input2 = event.target.value;
+    document.getElementById('titlename').innerHTML = `${input2}`;
+    localStorage.setItem("title_name", `${input2}`);
+}
+function checkupdate() {
+    var embedsrc = document.getElementById('bing_embed');
+    var inputval = document.getElementById('myinput');
+    //var outputval = document.getElementById('output');
+    //outputval.innerHTML = embedsrc.src
+    if (inputval.value !== embedsrc.src && embedsrc.src !== 'https://www.bing.com/webhp?igu=1') {
+        inputval.value = embedsrc.src;
+    }
+}
+//function reloadIframe() {
+//  var embed02 = document.getElementById('bing_embed');
+//  embed02.src = embed02.src;
+//}
+</script>
+</body>
