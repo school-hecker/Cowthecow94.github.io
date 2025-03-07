@@ -4,8 +4,9 @@
 <button class="button button2" onclick="window.location.href='https://cowthecow94.github.io/';">Back</button>
 <button class="button button2" onclick="setIframe('https://www.bing.com/webhp?igu=1')">Reset</button> <br>
 <button class="button button2" onclick="openFullscreen();">Fullscreen embed</button> <br>
-<input type="text" value="https://" id="myinput" placeholder="URL" oninput="handleInput(event)">
-<input type="text" placeholder="Tab name" id="mytitle" oninput="handleInput2(event)">
+<input type="text" value="https://" id="myinput" placeholder="URL">
+<button class="button button2" onclick="setIframe(document.getElementById('myinput').value)">Go</button>
+<input type="text" placeholder="Tab name" id="mytitle" oninput="handleInput2(event)"> <br>
 <!--<div id="output"></div>-->
 <embed id="bing_embed" src='https://www.bing.com/webhp?igu=1' width=1000 height=700></embed>
 <script>
@@ -16,8 +17,9 @@ function setIframe(newsrc) {
   if (newsrc !== 'https://www.bing.com/webhp?igu=1') {
     document.getElementById('myinput').value = newsrc;
   }
-  if (newsrc === 'https://www.bing.com/webhp?igu=1') {
+  if (newsrc === 'https://www.bing.com/webhp?igu=1' || newsrc === '' || newsrc === 'https://') {
     document.getElementById('myinput').value = "https://";
+    embed02.src = 'https://www.bing.com/webhp?igu=1';
   }
 }
 function handleInput(event) {
