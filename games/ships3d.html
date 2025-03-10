@@ -2,6 +2,19 @@
 <link rel="stylesheet" href="https://cowthecow94.github.io/mainstyles.css">
 <body>
 <button class="button button2" onclick="window.location.href='https://cowthecow94.github.io/';">Back</button> <br>
+<button class="button button2" onclick="openFullscreen();">Fullscreen Ships 3D</button> <br>
 <br>
-<embed src="https://yp3d.com" width=100% height=100% allowfullscreen></embed>
+<embed id="ships_embed" src="https://yp3d.com" width=100% height=100% allowfullscreen></embed>
 </body>
+<script>
+  var elem = document.getElementById("bing_embed");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
